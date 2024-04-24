@@ -51,3 +51,30 @@ header .container nav a:hover {
     background-size: cover;
     justify-content: center;
 }
+
+.filme-principal .descricao {
+    margin-bottom: 30px;
+}
+
+.filme-principal .botoes {
+    margin: 10px;
+}
+
+.filme-principal .botoes .botao {
+    background: rgba(0, 0, 0, 50%);
+    border-radius: 8px;
+    border: none;
+    padding: 15px 28px;
+    margin-right: 20px;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.filme-principal .botoes .botao:hover {
+    background: #FFF;
+    color: var(--preto);
+}
+
+.filme-principal .botoes .botao i {
+    padding-right: 8px;
+}
