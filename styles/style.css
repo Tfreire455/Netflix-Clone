@@ -1,7 +1,6 @@
 :root {
     --vermelho: #E50914;
     --preto: #141414;
-    --fonte: font-family:
 }
 
 * {
@@ -12,9 +11,43 @@
 
 body {
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
+    color: #FFF;
 }
 
 header .container {
-    border: 1px solid black;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .logo {
+    src: url('fonts/GOTHAM-BOOK.ttf');
+    font-family: 'Gotham Book', Gotham-Book, sans-serif;
+    font-size: 1.5rem;
+    color: var(--vermelho);
+    font-weight: 800;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header .container nav a:hover {
+    color: #FFF;
+}
+
+
+/*Banner - Filme principal*/
+
+.filme-principal {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, rgba(0, 0, 0), rgba(0, 0, 0, 80%), rgba(0, 0, 0, 0)), url('/img/dPpEgtWstbdjHh6HiyRIvxUiq6a.jpg');
+    height: 400px;
+    background-size: cover;
+    justify-content: center;
 }
