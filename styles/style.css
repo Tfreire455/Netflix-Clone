@@ -52,6 +52,10 @@ header .container nav a:hover {
     justify-content: center;
 }
 
+.filme-principal .titulo {
+    font-size: 3rem;
+}
+
 .filme-principal .descricao {
     margin-bottom: 30px;
 }
@@ -68,6 +72,7 @@ header .container nav a:hover {
     margin-right: 20px;
     color: #FFF;
     font-size: 12px;
+    transition: .1s ease-in-out;
 }
 
 .filme-principal .botoes .botao:hover {
@@ -78,3 +83,16 @@ header .container nav a:hover {
 .filme-principal .botoes .botao i {
     padding-right: 8px;
 }
+
+.filme-principal .container {
+    margin-left: 30px;
+    width: 60%;
+}
+
+.item .box-filme {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+@media (max-width: 616px) {}
