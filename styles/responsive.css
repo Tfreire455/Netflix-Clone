@@ -1,0 +1,20 @@
+@media (max-width: 516px) {
+    header .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    header nav a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .filme-principal .botoes .botao {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        justify-content: center;
+    }
+    .carrossel-filmes {
+        margin-top: 15px;
+    }
+}
